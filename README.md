@@ -3,9 +3,9 @@ Data visualizations in Python ʘ‿ʘ
 
 ## Modules
 <ul>
-  <li>[ ] matplotlib</li>
-  <li>[ ] numpy</li>
-  <li>[ ] pandas</li>
-  <li>[ ] SciPy</li>
+  <li>[X] matplotlib</li>
+  <li>[X] numpy</li>
+  <li>[X] pandas</li>
+  <li>[X] SciPy</li>
   <li>[ ] plotly</li>
 </ul>
