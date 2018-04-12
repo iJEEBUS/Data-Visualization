@@ -7,8 +7,17 @@ data = pd.DataFrame (
     index=["Jon", "Jill", "Javhah", "Jessica", "Joe", "Jack"]
     )
 
-print("\nCounts of each value in the pandas DataFrame: \n %s" % (data["Major"].value_counts()))
-print("\nNumber of data points in the pandas DataFrame:\n %s" % (len(data)))
-print("\nDescription of the pandas DataFrame:\n %s" % (data.describe()))
-print("\nPrinting of the pandas DataFrame:\n %s" % (data))
-print("\nAccessing the Major for the second record:\n %s" % (data["Major"][1]))
+print("\nCounts of each value in the pandas DataFrame: \n %s"
+ % (data["Major"].value_counts()))
+
+print("\nNumber of data points in the pandas DataFrame:\n %s" 
+	% (len(data)))
+
+print("\nDescription of the pandas DataFrame:\n %s" 
+	% (data.describe()))
+
+print("\nPrinting of the pandas DataFrame:\n %s" 
+	% (data))
+
+print("\nAccessing the Major for the second record:\n %s" 
+	% (data["Major"][1]))
